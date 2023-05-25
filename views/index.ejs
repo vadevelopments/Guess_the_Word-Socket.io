@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/stylesheets/style.css">
+    <link rel="icon" href="../static/images/social-store.png">
+    <title>Guess the Word</title>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="../static/scripts/client.js"></script>
+</head>
+<body>
+    <div class="topDiv">
+        <h3>Guess the Word:</h3>
+        <h1><span id="word">j _ v _ s _ _ _ p _</span></h1>
+        <div id="chatBox"></div>
+        <form id="messageForm">
+            <input type="text" id="messageInput" placeholder="Enter your guess word here."></input>
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+</body>
+</html>
