@@ -1,5 +1,7 @@
 # Guess_the_Word-Socket.io
 
+https://drive.google.com/file/d/1pDBA96bSB1aj5-2UO4_-Fc67fEddui_z/view?usp=sharing
+
 This project is a real-time multiplayer game called "Guess the Word" implemented using Node.js, Express.js, and Socket.IO. The project consists of a server-side script (server.js), a client-side script (client.js), and an HTML template file (index.ejs).
 
 The server-side script sets up an Express.js server and creates a Socket.IO instance. It handles client connections, receives and broadcasts messages, and keeps track of the chat history. The server emits a greeting message to the connected client upon successful connection. When a client submits their username, the server emits the chat history and notifies other clients about the user joining. The server also checks if a chat message matches a specific word ("javascript") and announces the winner if a match is found. If a client disconnects, the server emits the chat history and notifies other clients about the user leaving.
